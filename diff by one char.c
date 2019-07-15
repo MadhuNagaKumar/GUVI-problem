@@ -13,6 +13,8 @@ int main()
                 if(a[i]!=b[j]){
                     count++;
                 }
+                else{
+                    break;
             }
         }
     }
