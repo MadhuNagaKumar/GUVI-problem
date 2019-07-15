@@ -9,7 +9,7 @@ int main()
     l2=strlen(b);
     if(l1==l2){
         for(i=0;i<l1;i++){
-            for(j=0;j<l2;j++){
+            for(j=i;j<l2;j++){
                 if(a[i]!=b[j]){
                     count++;
                 }
