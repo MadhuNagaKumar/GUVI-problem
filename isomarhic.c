@@ -16,7 +16,7 @@ int main(){
             c2=b[i+1]-'a';
             d2=c1-c2;
             if(d1!=d2){
-                printf("NO");
+                printf("no");
                 break;
             }
         }
@@ -25,7 +25,7 @@ int main(){
         }
     }
     else{
-        printf("NO");
+        printf("no");
     }
     return 0;
 }
