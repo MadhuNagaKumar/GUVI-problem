@@ -24,7 +24,7 @@ int main(){
         }
         count=0;
     }
-    if(u<0)
+    if(u<=0)
     {
         for(i=0;i<a;i++){
             for(j=i+1;j<a;j++){
