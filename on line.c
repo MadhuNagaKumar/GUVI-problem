@@ -15,6 +15,9 @@ int main()
             if((a[i]==b[i])&&(a[i]==c[i])){
                 j=1;
             }
+            if((a[i]==a[i+1])&&(b[i]==b[i+1])&&(c[i]==c[j])){
+                j=1;
+            }
         }
         if(j>0){
             printf("yes");
