@@ -19,14 +19,14 @@ int main()
             }
         }
         if(c==b){
-            printf("yes");
+            printf("YES");
         }
         else{
-            printf("no");
+            printf("NO");
         }
     }
     else{
-        printf("no");
+        printf("NO");
     }
     return 0;
 }
